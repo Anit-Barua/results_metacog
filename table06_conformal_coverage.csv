@@ -1,0 +1,33 @@
+System,Model,alpha,nominal,empirical
+Lorenz,ConformalNN,0.05,0.95,0.994
+Lorenz,ConformalNN,0.1,0.9,0.8597
+Lorenz,ConformalNN,0.2,0.8,0.3551
+Lorenz,ConformalNN,0.3,0.7,0.2995
+Lorenz,ACI,0.05,0.95,0.9916
+Lorenz,ACI,0.1,0.9,0.8515
+Lorenz,ACI,0.2,0.8,0.3781
+Lorenz,ACI,0.3,0.7,0.3173
+Rössler,ConformalNN,0.05,0.95,0.8652
+Rössler,ConformalNN,0.1,0.9,0.8434
+Rössler,ConformalNN,0.2,0.8,0.8121
+Rössler,ConformalNN,0.3,0.7,0.7793
+Rössler,ACI,0.05,0.95,0.8511
+Rössler,ACI,0.1,0.9,0.8189
+Rössler,ACI,0.2,0.8,0.7701
+Rössler,ACI,0.3,0.7,0.7268
+Van der Pol,ConformalNN,0.05,0.95,0.9812
+Van der Pol,ConformalNN,0.1,0.9,0.9584
+Van der Pol,ConformalNN,0.2,0.8,0.8968
+Van der Pol,ConformalNN,0.3,0.7,0.8257
+Van der Pol,ACI,0.05,0.95,0.9817
+Van der Pol,ACI,0.1,0.9,0.9565
+Van der Pol,ACI,0.2,0.8,0.8963
+Van der Pol,ACI,0.3,0.7,0.8158
+Halvorsen,ConformalNN,0.05,0.95,0.9483
+Halvorsen,ConformalNN,0.1,0.9,0.9078
+Halvorsen,ConformalNN,0.2,0.8,0.8038
+Halvorsen,ConformalNN,0.3,0.7,0.7047
+Halvorsen,ACI,0.05,0.95,0.9564
+Halvorsen,ACI,0.1,0.9,0.9165
+Halvorsen,ACI,0.2,0.8,0.8181
+Halvorsen,ACI,0.3,0.7,0.7167

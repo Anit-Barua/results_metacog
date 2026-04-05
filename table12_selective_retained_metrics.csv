@@ -1,0 +1,5 @@
+System,abstention_rate,retained_RMSE_h1,retained_RMSE_h20,retained_LCS
+Lorenz,0.2769,0.2168,0.4826,0.9959
+Rössler,0.1737,0.1196,0.4896,0.9365
+Van der Pol,0.1779,0.0463,0.0523,N/A
+Halvorsen,0.1768,0.1742,0.5692,0.9818

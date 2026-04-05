@@ -1,0 +1,5 @@
+System,DataSource,N_steps,dim
+Lorenz,RK4 integration (reproducible benchmark),4000,3
+Rössler,RK4 integration (reproducible benchmark),2400,3
+Van der Pol,RK4 integration (reproducible benchmark),3000,2
+Halvorsen,RK4 integration (reproducible benchmark),4000,3

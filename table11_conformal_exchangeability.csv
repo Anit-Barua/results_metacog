@@ -1,0 +1,33 @@
+System,Model,alpha,nominal_cov,empirical_cov,signed_gap,guarantee_violated,note
+Lorenz,ConformalNN,0.05,0.95,0.994,0.044,NO,Coverage valid.
+Lorenz,ConformalNN,0.1,0.9,0.8597,-0.0403,MARGINAL,Exchangeability broken: test window is further along the chaotic trajectory than calibration window. Consider trajectory-blocked calibration [Barber et al. 2023].
+Lorenz,ConformalNN,0.2,0.8,0.3551,-0.4449,YES,Exchangeability broken: test window is further along the chaotic trajectory than calibration window. Consider trajectory-blocked calibration [Barber et al. 2023].
+Lorenz,ConformalNN,0.3,0.7,0.2995,-0.4005,YES,Exchangeability broken: test window is further along the chaotic trajectory than calibration window. Consider trajectory-blocked calibration [Barber et al. 2023].
+Lorenz,ACI,0.05,0.95,0.9916,0.0416,NO,Coverage valid.
+Lorenz,ACI,0.1,0.9,0.8515,-0.0485,MARGINAL,Exchangeability broken: test window is further along the chaotic trajectory than calibration window. Consider trajectory-blocked calibration [Barber et al. 2023].
+Lorenz,ACI,0.2,0.8,0.3781,-0.4219,YES,Exchangeability broken: test window is further along the chaotic trajectory than calibration window. Consider trajectory-blocked calibration [Barber et al. 2023].
+Lorenz,ACI,0.3,0.7,0.3173,-0.3827,YES,Exchangeability broken: test window is further along the chaotic trajectory than calibration window. Consider trajectory-blocked calibration [Barber et al. 2023].
+Rössler,ConformalNN,0.05,0.95,0.8652,-0.0848,YES,Exchangeability broken: test window is further along the chaotic trajectory than calibration window. Consider trajectory-blocked calibration [Barber et al. 2023].
+Rössler,ConformalNN,0.1,0.9,0.8434,-0.0566,YES,Exchangeability broken: test window is further along the chaotic trajectory than calibration window. Consider trajectory-blocked calibration [Barber et al. 2023].
+Rössler,ConformalNN,0.2,0.8,0.8121,0.0121,NO,Coverage valid.
+Rössler,ConformalNN,0.3,0.7,0.7793,0.0793,NO,Coverage valid.
+Rössler,ACI,0.05,0.95,0.8511,-0.0989,YES,Exchangeability broken: test window is further along the chaotic trajectory than calibration window. Consider trajectory-blocked calibration [Barber et al. 2023].
+Rössler,ACI,0.1,0.9,0.8189,-0.0811,YES,Exchangeability broken: test window is further along the chaotic trajectory than calibration window. Consider trajectory-blocked calibration [Barber et al. 2023].
+Rössler,ACI,0.2,0.8,0.7701,-0.0299,MARGINAL,Exchangeability broken: test window is further along the chaotic trajectory than calibration window. Consider trajectory-blocked calibration [Barber et al. 2023].
+Rössler,ACI,0.3,0.7,0.7268,0.0268,NO,Coverage valid.
+Van der Pol,ConformalNN,0.05,0.95,0.9812,0.0312,NO,Coverage valid.
+Van der Pol,ConformalNN,0.1,0.9,0.9584,0.0584,NO,Coverage valid.
+Van der Pol,ConformalNN,0.2,0.8,0.8968,0.0968,NO,Coverage valid.
+Van der Pol,ConformalNN,0.3,0.7,0.8257,0.1257,NO,Coverage valid.
+Van der Pol,ACI,0.05,0.95,0.9817,0.0317,NO,Coverage valid.
+Van der Pol,ACI,0.1,0.9,0.9565,0.0565,NO,Coverage valid.
+Van der Pol,ACI,0.2,0.8,0.8963,0.0963,NO,Coverage valid.
+Van der Pol,ACI,0.3,0.7,0.8158,0.1158,NO,Coverage valid.
+Halvorsen,ConformalNN,0.05,0.95,0.9483,-0.0017,MARGINAL,Exchangeability broken: test window is further along the chaotic trajectory than calibration window. Consider trajectory-blocked calibration [Barber et al. 2023].
+Halvorsen,ConformalNN,0.1,0.9,0.9078,0.0078,NO,Coverage valid.
+Halvorsen,ConformalNN,0.2,0.8,0.8038,0.0038,NO,Coverage valid.
+Halvorsen,ConformalNN,0.3,0.7,0.7047,0.0047,NO,Coverage valid.
+Halvorsen,ACI,0.05,0.95,0.9564,0.0064,NO,Coverage valid.
+Halvorsen,ACI,0.1,0.9,0.9165,0.0165,NO,Coverage valid.
+Halvorsen,ACI,0.2,0.8,0.8181,0.0181,NO,Coverage valid.
+Halvorsen,ACI,0.3,0.7,0.7167,0.0167,NO,Coverage valid.

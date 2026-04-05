@@ -1,0 +1,5 @@
+System,Model,mean_NLL,std_NLL
+Lorenz,NormFlowEns,-20.4439,1.2996
+Rössler,NormFlowEns,-20.8986,0.5621
+Van der Pol,NormFlowEns,-21.1399,0.1315
+Halvorsen,NormFlowEns,-20.8359,0.4659

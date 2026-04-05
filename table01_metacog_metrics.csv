@@ -1,0 +1,61 @@
+System,Model,Group,DataSource,λ_est,λ_lit,ECE,NLL(h=1),NLL(h=20),RMSE(h=1),RMSE(h=20),LCS,CovGap,PQ,MA,ER,ID,FC,EU,AB,FINAL_total
+Lorenz,DE,A,RK4 integration (reproducible benchmark),0.7123,0.906,0.1216,-0.9931,6.1265,0.0907,0.3855,0.3589,N/A,0.9093,0.6795,0.8784,0.8014,0.6145,1.0,0.6,0.7807
+Lorenz,SnapshotEns,A,RK4 integration (reproducible benchmark),0.7123,0.906,0.0381,0.3747,1.1347,0.2061,0.8776,0.8077,N/A,0.7939,0.9039,0.9619,0.9251,0.1224,1.0,0.6,0.7814
+Lorenz,BayesLSTM,B,RK4 integration (reproducible benchmark),0.7123,0.906,0.3305,0.5944,0.6895,0.2261,0.3039,0.4576,N/A,0.7739,0.7288,0.6695,0.8811,0.6961,1.0,0.6,0.7601
+Lorenz,EDL,B,RK4 integration (reproducible benchmark),0.7123,0.906,0.3346,2.0532,2.6087,0.6617,3.5612,0.9223,N/A,0.3383,0.9611,0.6654,0.5894,0.0,0.5254,0.6,0.5632
+Lorenz,MDN,B,RK4 integration (reproducible benchmark),0.7123,0.906,0.2855,0.0149,0.6935,0.1783,0.5015,0.6491,N/A,0.8217,0.8245,0.7145,0.997,0.4985,1.0,0.6,0.7871
+Lorenz,DKL,C,RK4 integration (reproducible benchmark),0.7123,0.906,0.2071,-0.7115,-0.8995,0.1478,0.078,N/A,N/A,0.8522,0.5,0.7929,0.8577,0.922,1.0,0.6,0.7735
+Lorenz,SNGP,C,RK4 integration (reproducible benchmark),0.7123,0.906,0.2312,1.9391,2.2967,1.7823,2.3384,0.9979,N/A,0.0,0.999,0.7688,0.6122,0.0,1.0,0.6,0.5937
+Lorenz,ConformalNN,D,RK4 integration (reproducible benchmark),0.7123,0.906,0.1578,0.2386,0.6791,0.1776,0.4401,0.1477,0.0403,0.8224,0.5738,0.8422,0.9523,0.5599,1.0,0.6,0.7588
+Lorenz,ACI,D,RK4 integration (reproducible benchmark),0.7123,0.906,0.3398,-0.5011,2.606,0.1466,0.5308,0.8519,0.0579,0.8534,0.9259,0.6602,0.8998,0.4692,1.0,0.6,0.7805
+Lorenz,ESN,E,RK4 integration (reproducible benchmark),0.7123,0.906,0.3562,8.383,21.3288,0.0626,0.5123,0.881,N/A,0.9374,0.9405,0.6438,0.0,0.4877,1.0,0.6,0.6313
+Lorenz,Mamba-Lite,E,RK4 integration (reproducible benchmark),0.7123,0.906,0.418,129.5755,107.8067,0.5089,0.5896,0.9561,N/A,0.4911,0.9781,0.582,0.0,0.4104,1.0,0.6,0.5621
+Lorenz,TFT-Lite,F,RK4 integration (reproducible benchmark),0.7123,0.906,0.3552,0.4618,0.9226,0.2923,0.2937,0.2401,N/A,0.7077,0.6201,0.6448,0.9076,0.7063,1.0,0.6,0.7296
+Lorenz,PatchTST-Lite,F,RK4 integration (reproducible benchmark),0.7123,0.906,0.4402,278.4076,406.4693,0.3959,1.0487,0.969,N/A,0.6041,0.9845,0.5598,0.0,0.0,1.0,0.6,0.511
+Lorenz,NormFlowEns,G,RK4 integration (reproducible benchmark),0.7123,0.906,0.3512,0.8289,0.8482,0.2042,0.2312,0.3232,N/A,0.7958,0.6616,0.6488,0.8342,0.7688,1.0,0.6,0.7463
+Lorenz,SelectivePredictor,H,RK4 integration (reproducible benchmark),0.7123,0.906,0.4502,218.0099,354.2991,0.2168,0.4826,0.9959,N/A,0.7832,0.998,0.5498,0.0,0.5174,1.0,0.8461,0.6234
+Rössler,DE,A,RK4 integration (reproducible benchmark),0.0826,0.071,0.1727,0.0334,27.9345,0.0952,0.4597,0.3101,N/A,0.9048,0.655,0.8273,0.9933,0.5403,1.0,0.6,0.788
+Rössler,SnapshotEns,A,RK4 integration (reproducible benchmark),0.0826,0.071,0.1,0.0949,2.5573,0.1627,0.5857,0.6788,N/A,0.8373,0.8394,0.9,0.981,0.4143,1.0,0.6,0.8139
+Rössler,BayesLSTM,B,RK4 integration (reproducible benchmark),0.0826,0.071,0.3285,0.1457,0.1957,0.1811,0.2136,0.2024,N/A,0.8189,0.6012,0.6715,0.9709,0.7864,1.0,0.6,0.7675
+Rössler,EDL,B,RK4 integration (reproducible benchmark),0.0826,0.071,0.4255,1.7209,2.1094,0.3787,0.9214,0.7343,N/A,0.6213,0.8671,0.5745,0.6558,0.0786,0.2089,0.6,0.5568
+Rössler,MDN,B,RK4 integration (reproducible benchmark),0.0826,0.071,0.3266,-0.0439,0.0318,0.1535,0.4463,0.5474,N/A,0.8465,0.7737,0.6734,0.9912,0.5537,1.0,0.6,0.7779
+Rössler,DKL,C,RK4 integration (reproducible benchmark),0.0826,0.071,0.0424,-1.9952,2.2735,0.0314,0.1038,N/A,N/A,0.9686,0.5,0.9576,0.601,0.8962,1.0,0.6,0.7703
+Rössler,SNGP,C,RK4 integration (reproducible benchmark),0.0826,0.071,0.3295,1.4916,1.8003,0.8677,1.0432,0.9984,N/A,0.1323,0.9992,0.6705,0.7017,0.0,1.0,0.6,0.6061
+Rössler,ConformalNN,D,RK4 integration (reproducible benchmark),0.0826,0.071,0.1311,-0.3193,0.9262,0.1609,0.5619,0.8193,0.0566,0.8391,0.9096,0.8689,0.9361,0.4381,1.0,0.6,0.8188
+Rössler,ACI,D,RK4 integration (reproducible benchmark),0.0826,0.071,0.1353,-0.2428,0.8183,0.1492,0.5231,0.7272,0.0569,0.8508,0.8636,0.8647,0.9514,0.4769,1.0,0.6,0.8178
+Rössler,ESN,E,RK4 integration (reproducible benchmark),0.0826,0.071,0.3276,2.9285,12.3395,0.0711,0.4782,0.9508,N/A,0.9289,0.9754,0.6724,0.4143,0.5218,1.0,0.6,0.7234
+Rössler,Mamba-Lite,E,RK4 integration (reproducible benchmark),0.0826,0.071,0.4001,74.6551,189.7359,0.3824,0.5045,-0.5765,N/A,0.6176,0.2118,0.5999,0.0,0.4955,1.0,0.6,0.425
+Rössler,TFT-Lite,F,RK4 integration (reproducible benchmark),0.0826,0.071,0.3361,0.122,0.2662,0.2158,0.2988,0.3902,N/A,0.7842,0.6951,0.6639,0.9756,0.7012,1.0,0.6,0.7706
+Rössler,PatchTST-Lite,F,RK4 integration (reproducible benchmark),0.0826,0.071,0.4642,72.6676,773.0163,0.1679,0.6433,0.8263,N/A,0.8321,0.9131,0.5358,0.0,0.3567,1.0,0.6,0.5714
+Rössler,NormFlowEns,G,RK4 integration (reproducible benchmark),0.0826,0.071,0.3353,0.5147,0.5672,0.1653,0.2684,-0.0211,N/A,0.8347,0.4894,0.6647,0.8971,0.7316,1.0,0.6,0.722
+Rössler,SelectivePredictor,H,RK4 integration (reproducible benchmark),0.0826,0.071,0.4607,76.6608,1335.6352,0.1196,0.4896,0.9365,N/A,0.8804,0.9682,0.5393,0.0,0.5104,1.0,0.9475,0.6304
+Van der Pol,DE,A,RK4 integration (reproducible benchmark),-0.0378,0.0,0.2325,-0.0604,4.9366,0.0232,0.0307,N/A,N/A,0.9768,0.5,0.7675,0.9879,0.9693,1.0,0.6,0.8139
+Van der Pol,SnapshotEns,A,RK4 integration (reproducible benchmark),-0.0378,0.0,0.14,-0.1629,-1.2376,0.0425,0.067,N/A,N/A,0.9575,0.5,0.86,0.9674,0.933,1.0,0.6,0.821
+Van der Pol,BayesLSTM,B,RK4 integration (reproducible benchmark),-0.0378,0.0,0.3168,-1.1689,-1.178,0.036,0.0361,N/A,N/A,0.964,0.5,0.6832,0.7662,0.9639,1.0,0.6,0.7548
+Van der Pol,EDL,B,RK4 integration (reproducible benchmark),-0.0378,0.0,0.4563,0.534,0.7658,0.0445,0.1766,N/A,N/A,0.9555,0.5,0.5437,0.8932,0.8234,0.1291,0.6,0.658
+Van der Pol,MDN,B,RK4 integration (reproducible benchmark),-0.0378,0.0,0.2768,-0.9517,-1.3118,0.048,0.154,N/A,N/A,0.952,0.5,0.7232,0.8097,0.846,1.0,0.6,0.7515
+Van der Pol,DKL,C,RK4 integration (reproducible benchmark),-0.0378,0.0,0.2982,1.8315,2.2836,0.0201,0.021,N/A,N/A,0.9799,0.5,0.7018,0.6337,0.979,1.0,0.6,0.7389
+Van der Pol,SNGP,C,RK4 integration (reproducible benchmark),-0.0378,0.0,0.4089,0.2626,0.5916,0.1509,0.1603,N/A,N/A,0.8491,0.5,0.5911,0.9475,0.8397,1.0,0.6,0.7366
+Van der Pol,ConformalNN,D,RK4 integration (reproducible benchmark),-0.0378,0.0,0.2362,-1.8187,-1.1228,0.0298,0.0422,N/A,0.0584,0.9702,0.5,0.7638,0.6363,0.9578,1.0,0.6,0.7474
+Van der Pol,ACI,D,RK4 integration (reproducible benchmark),-0.0378,0.0,0.2705,-1.8228,-0.7419,0.0325,0.034,N/A,0.0726,0.9675,0.5,0.7295,0.6354,0.966,1.0,0.6,0.7413
+Van der Pol,ESN,E,RK4 integration (reproducible benchmark),-0.0378,0.0,0.3829,23.0679,20.4108,0.0299,0.0329,N/A,N/A,0.9701,0.5,0.6171,0.0,0.9671,1.0,0.6,0.6049
+Van der Pol,Mamba-Lite,E,RK4 integration (reproducible benchmark),-0.0378,0.0,0.3762,12.246,268.8337,0.059,0.0769,N/A,N/A,0.941,0.5,0.6238,0.0,0.9231,1.0,0.6,0.5962
+Van der Pol,TFT-Lite,F,RK4 integration (reproducible benchmark),-0.0378,0.0,0.3138,-1.3139,-1.3337,0.0377,0.037,N/A,N/A,0.9623,0.5,0.6862,0.7372,0.963,1.0,0.6,0.7499
+Van der Pol,PatchTST-Lite,F,RK4 integration (reproducible benchmark),-0.0378,0.0,0.4217,62.6433,99.3659,0.0434,0.0692,N/A,N/A,0.9566,0.5,0.5783,0.0,0.9308,1.0,0.6,0.5901
+Van der Pol,NormFlowEns,G,RK4 integration (reproducible benchmark),-0.0378,0.0,0.3323,-0.6446,-0.6671,0.0523,0.0543,N/A,N/A,0.9477,0.5,0.6677,0.8711,0.9457,1.0,0.6,0.7659
+Van der Pol,SelectivePredictor,H,RK4 integration (reproducible benchmark),-0.0378,0.0,0.4516,161.0858,346.5664,0.0463,0.0523,N/A,N/A,0.9537,0.5,0.5484,0.0,0.9477,1.0,0.9559,0.6041
+Halvorsen,DE,A,RK4 integration (reproducible benchmark),0.6739,0.75,0.1959,-0.4779,14.5995,0.0948,0.407,0.8718,N/A,0.9052,0.9359,0.8041,0.9044,0.593,1.0,0.6,0.8371
+Halvorsen,SnapshotEns,A,RK4 integration (reproducible benchmark),0.6739,0.75,0.0666,0.0735,1.4324,0.1961,0.658,0.9653,N/A,0.8039,0.9826,0.9334,0.9853,0.342,1.0,0.6,0.838
+Halvorsen,BayesLSTM,B,RK4 integration (reproducible benchmark),0.6739,0.75,0.2937,-0.0304,0.2173,0.1294,0.2261,0.608,N/A,0.8706,0.804,0.7063,0.9939,0.7739,1.0,0.6,0.8276
+Halvorsen,EDL,B,RK4 integration (reproducible benchmark),0.6739,0.75,0.3864,1.618,1.7982,0.2184,1.0489,0.717,N/A,0.7816,0.8585,0.6136,0.6764,0.0,0.1334,0.6,0.5678
+Halvorsen,MDN,B,RK4 integration (reproducible benchmark),0.6739,0.75,0.1513,-1.1938,0.4395,0.1,0.4784,0.9114,N/A,0.9,0.9557,0.8487,0.7612,0.5216,1.0,0.6,0.8133
+Halvorsen,DKL,C,RK4 integration (reproducible benchmark),0.6739,0.75,0.0401,-1.8831,7.094,0.0317,0.1893,N/A,N/A,0.9683,0.5,0.9599,0.6234,0.8107,1.0,0.6,0.762
+Halvorsen,SNGP,C,RK4 integration (reproducible benchmark),0.6739,0.75,0.3165,1.2949,1.6883,0.6135,1.0322,0.998,N/A,0.3865,0.999,0.6835,0.741,0.0,1.0,0.6,0.6462
+Halvorsen,ConformalNN,D,RK4 integration (reproducible benchmark),0.6739,0.75,0.1689,-0.263,0.9629,0.1443,0.5321,0.9168,0.0078,0.8557,0.9584,0.8311,0.9474,0.4679,1.0,0.6,0.8305
+Halvorsen,ACI,D,RK4 integration (reproducible benchmark),0.6739,0.75,0.2312,-0.2181,1.4731,0.1514,0.4684,0.8633,0.057,0.8486,0.9316,0.7688,0.9564,0.5316,1.0,0.6,0.8224
+Halvorsen,ESN,E,RK4 integration (reproducible benchmark),0.6739,0.75,0.3658,5.7834,12.4559,0.1014,0.2693,0.9635,N/A,0.8986,0.9818,0.6342,0.0,0.7307,1.0,0.6,0.6703
+Halvorsen,Mamba-Lite,E,RK4 integration (reproducible benchmark),0.6739,0.75,0.4115,56.7937,114.9138,0.2769,0.5559,0.964,N/A,0.7231,0.982,0.5885,0.0,0.4441,1.0,0.6,0.5971
+Halvorsen,TFT-Lite,F,RK4 integration (reproducible benchmark),0.6739,0.75,0.2491,0.0664,0.6483,0.192,0.403,0.7772,N/A,0.808,0.8886,0.7509,0.9867,0.597,1.0,0.6,0.8198
+Halvorsen,PatchTST-Lite,F,RK4 integration (reproducible benchmark),0.6739,0.75,0.4341,120.0835,353.8666,0.2338,0.7105,0.9942,N/A,0.7662,0.9971,0.5659,0.0,0.2895,1.0,0.6,0.5779
+Halvorsen,NormFlowEns,G,RK4 integration (reproducible benchmark),0.6739,0.75,0.2781,0.4277,0.8859,0.1568,0.4438,0.9726,N/A,0.8432,0.9863,0.7219,0.9145,0.5562,1.0,0.6,0.8206
+Halvorsen,SelectivePredictor,H,RK4 integration (reproducible benchmark),0.6739,0.75,0.4594,139.2129,1518.4884,0.1742,0.5692,0.9818,N/A,0.8258,0.9909,0.5406,0.0,0.4308,1.0,0.9535,0.6175

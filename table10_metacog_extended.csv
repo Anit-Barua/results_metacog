@@ -1,0 +1,61 @@
+System,Model,Group,LCS,EU,AB,CovGap,FINAL_total
+Lorenz,DE,A,0.3589,1.0,0.6,N/A,0.7807
+Lorenz,SnapshotEns,A,0.8077,1.0,0.6,N/A,0.7814
+Lorenz,BayesLSTM,B,0.4576,1.0,0.6,N/A,0.7601
+Lorenz,EDL,B,0.9223,0.5254,0.6,N/A,0.5632
+Lorenz,MDN,B,0.6491,1.0,0.6,N/A,0.7871
+Lorenz,DKL,C,N/A,1.0,0.6,N/A,0.7735
+Lorenz,SNGP,C,0.9979,1.0,0.6,N/A,0.5937
+Lorenz,ConformalNN,D,0.1477,1.0,0.6,0.0403,0.7588
+Lorenz,ACI,D,0.8519,1.0,0.6,0.0579,0.7805
+Lorenz,ESN,E,0.881,1.0,0.6,N/A,0.6313
+Lorenz,Mamba-Lite,E,0.9561,1.0,0.6,N/A,0.5621
+Lorenz,TFT-Lite,F,0.2401,1.0,0.6,N/A,0.7296
+Lorenz,PatchTST-Lite,F,0.969,1.0,0.6,N/A,0.511
+Lorenz,NormFlowEns,G,0.3232,1.0,0.6,N/A,0.7463
+Lorenz,SelectivePredictor,H,0.9959,1.0,0.8461,N/A,0.6234
+Rössler,DE,A,0.3101,1.0,0.6,N/A,0.788
+Rössler,SnapshotEns,A,0.6788,1.0,0.6,N/A,0.8139
+Rössler,BayesLSTM,B,0.2024,1.0,0.6,N/A,0.7675
+Rössler,EDL,B,0.7343,0.2089,0.6,N/A,0.5568
+Rössler,MDN,B,0.5474,1.0,0.6,N/A,0.7779
+Rössler,DKL,C,N/A,1.0,0.6,N/A,0.7703
+Rössler,SNGP,C,0.9984,1.0,0.6,N/A,0.6061
+Rössler,ConformalNN,D,0.8193,1.0,0.6,0.0566,0.8188
+Rössler,ACI,D,0.7272,1.0,0.6,0.0569,0.8178
+Rössler,ESN,E,0.9508,1.0,0.6,N/A,0.7234
+Rössler,Mamba-Lite,E,-0.5765,1.0,0.6,N/A,0.425
+Rössler,TFT-Lite,F,0.3902,1.0,0.6,N/A,0.7706
+Rössler,PatchTST-Lite,F,0.8263,1.0,0.6,N/A,0.5714
+Rössler,NormFlowEns,G,-0.0211,1.0,0.6,N/A,0.722
+Rössler,SelectivePredictor,H,0.9365,1.0,0.9475,N/A,0.6304
+Van der Pol,DE,A,N/A,1.0,0.6,N/A,0.8139
+Van der Pol,SnapshotEns,A,N/A,1.0,0.6,N/A,0.821
+Van der Pol,BayesLSTM,B,N/A,1.0,0.6,N/A,0.7548
+Van der Pol,EDL,B,N/A,0.1291,0.6,N/A,0.658
+Van der Pol,MDN,B,N/A,1.0,0.6,N/A,0.7515
+Van der Pol,DKL,C,N/A,1.0,0.6,N/A,0.7389
+Van der Pol,SNGP,C,N/A,1.0,0.6,N/A,0.7366
+Van der Pol,ConformalNN,D,N/A,1.0,0.6,0.0584,0.7474
+Van der Pol,ACI,D,N/A,1.0,0.6,0.0726,0.7413
+Van der Pol,ESN,E,N/A,1.0,0.6,N/A,0.6049
+Van der Pol,Mamba-Lite,E,N/A,1.0,0.6,N/A,0.5962
+Van der Pol,TFT-Lite,F,N/A,1.0,0.6,N/A,0.7499
+Van der Pol,PatchTST-Lite,F,N/A,1.0,0.6,N/A,0.5901
+Van der Pol,NormFlowEns,G,N/A,1.0,0.6,N/A,0.7659
+Van der Pol,SelectivePredictor,H,N/A,1.0,0.9559,N/A,0.6041
+Halvorsen,DE,A,0.8718,1.0,0.6,N/A,0.8371
+Halvorsen,SnapshotEns,A,0.9653,1.0,0.6,N/A,0.838
+Halvorsen,BayesLSTM,B,0.608,1.0,0.6,N/A,0.8276
+Halvorsen,EDL,B,0.717,0.1334,0.6,N/A,0.5678
+Halvorsen,MDN,B,0.9114,1.0,0.6,N/A,0.8133
+Halvorsen,DKL,C,N/A,1.0,0.6,N/A,0.762
+Halvorsen,SNGP,C,0.998,1.0,0.6,N/A,0.6462
+Halvorsen,ConformalNN,D,0.9168,1.0,0.6,0.0078,0.8305
+Halvorsen,ACI,D,0.8633,1.0,0.6,0.057,0.8224
+Halvorsen,ESN,E,0.9635,1.0,0.6,N/A,0.6703
+Halvorsen,Mamba-Lite,E,0.964,1.0,0.6,N/A,0.5971
+Halvorsen,TFT-Lite,F,0.7772,1.0,0.6,N/A,0.8198
+Halvorsen,PatchTST-Lite,F,0.9942,1.0,0.6,N/A,0.5779
+Halvorsen,NormFlowEns,G,0.9726,1.0,0.6,N/A,0.8206
+Halvorsen,SelectivePredictor,H,0.9818,1.0,0.9535,N/A,0.6175

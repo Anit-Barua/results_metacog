@@ -1,0 +1,61 @@
+System,Model,Wall_sec
+Lorenz,DE,32.7
+Lorenz,SnapshotEns,2.9
+Lorenz,BayesLSTM,7.2
+Lorenz,EDL,7.8
+Lorenz,MDN,6.7
+Lorenz,DKL,9.4
+Lorenz,SNGP,6.8
+Lorenz,ConformalNN,4.0
+Lorenz,ACI,3.9
+Lorenz,ESN,9.5
+Lorenz,Mamba-Lite,23.2
+Lorenz,TFT-Lite,11.6
+Lorenz,PatchTST-Lite,19.0
+Lorenz,NormFlowEns,14.1
+Lorenz,SelectivePredictor,3.1
+Rössler,DE,18.2
+Rössler,SnapshotEns,1.7
+Rössler,BayesLSTM,4.6
+Rössler,EDL,4.0
+Rössler,MDN,4.0
+Rössler,DKL,4.1
+Rössler,SNGP,4.2
+Rössler,ConformalNN,2.5
+Rössler,ACI,2.3
+Rössler,ESN,7.8
+Rössler,Mamba-Lite,15.4
+Rössler,TFT-Lite,7.5
+Rössler,PatchTST-Lite,12.5
+Rössler,NormFlowEns,9.0
+Rössler,SelectivePredictor,2.2
+Van der Pol,DE,22.5
+Van der Pol,SnapshotEns,2.2
+Van der Pol,BayesLSTM,5.5
+Van der Pol,EDL,4.8
+Van der Pol,MDN,5.1
+Van der Pol,DKL,5.3
+Van der Pol,SNGP,5.4
+Van der Pol,ConformalNN,2.9
+Van der Pol,ACI,3.1
+Van der Pol,ESN,7.6
+Van der Pol,Mamba-Lite,19.0
+Van der Pol,TFT-Lite,9.1
+Van der Pol,PatchTST-Lite,11.4
+Van der Pol,NormFlowEns,11.3
+Van der Pol,SelectivePredictor,2.5
+Halvorsen,DE,27.6
+Halvorsen,SnapshotEns,2.9
+Halvorsen,BayesLSTM,6.8
+Halvorsen,EDL,6.0
+Halvorsen,MDN,6.2
+Halvorsen,DKL,8.9
+Halvorsen,SNGP,6.4
+Halvorsen,ConformalNN,3.9
+Halvorsen,ACI,3.8
+Halvorsen,ESN,9.0
+Halvorsen,Mamba-Lite,22.0
+Halvorsen,TFT-Lite,11.4
+Halvorsen,PatchTST-Lite,18.3
+Halvorsen,NormFlowEns,13.3
+Halvorsen,SelectivePredictor,3.3

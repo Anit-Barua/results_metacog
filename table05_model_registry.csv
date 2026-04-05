@@ -1,0 +1,16 @@
+Model,group,uncertainty,ref,metacog_axis
+DE,A,Ensemble spread (inter-member σ),"Lakshminarayanan et al., NeurIPS 2017",Epistemic disagrement
+SnapshotEns,A,Snapshot checkpoint spread,"Huang et al., ICLR 2017",Cyclic epistemic diversity
+BayesLSTM,B,MC-Dropout (T=30 passes),"Gal & Ghahramani, ICML 2016",Variational Bayes approximation
+EDL,B,Normal-Inverse-Gamma: epistemic + aleatoric,"Amini et al., NeurIPS 2020",Higher-order uncertainty decomposition
+MDN,B,Gaussian mixture σ,"Bishop, NCRG/TR 1994",Multimodal predictive distribution
+DKL,C,GP posterior variance,"Wilson et al., UAI 2016",Kernel-based epistemic credibility
+SNGP,C,Laplace-approx GP variance,"Liu et al., NeurIPS 2020",Distance-aware epistemic uncertainty
+ConformalNN,D,Split conformal half-width,"Angelopoulos & Bates, arXiv 2107.07511",Finite-sample coverage guarantee
+ACI,D,Adaptive conformal (horizon-weighted),"Gibbs & Candès, NeurIPS 2021",Online horizon-adaptive coverage
+ESN,E,Bootstrap reservoir sub-sampling,"Pathak et al., PRL 2018",Reservoir state epistemic spread
+Mamba-Lite,E,Input-perturbation (8 passes),"Gu & Dao, arXiv 2312.00752, 2023",Selective-state temporal awareness
+TFT-Lite,F,Quantile outputs (q10/q50/q90),"Lim et al., NeurIPS 2021",Variable-selection interpretability
+PatchTST-Lite,F,Input-perturbation (8 passes),"Nie et al., ICLR 2023",Patch-level attention transparency
+NormFlowEns,G,Flow sample variance + exact NLL,"Dinh et al., ICLR 2017",Exact likelihood metacognition
+SelectivePredictor,H,Abstention when σ > threshold,"Geifman & El-Yaniv, NeurIPS 2017",Principled refusal to predict

@@ -1,0 +1,5 @@
+System,Model,abstention_rate,threshold_tau
+Lorenz,SelectivePredictor,0.2769,0.02451
+Rössler,SelectivePredictor,0.1737,0.01711
+Van der Pol,SelectivePredictor,0.1779,0.00423
+Halvorsen,SelectivePredictor,0.1768,0.024

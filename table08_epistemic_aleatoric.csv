@@ -1,0 +1,5 @@
+System,Model,mean_epistemic_frac,mean_aleatoric_frac
+Lorenz,EDL,0.7373,0.2627
+Rössler,EDL,0.8955,0.1045
+Van der Pol,EDL,0.9354,0.0646
+Halvorsen,EDL,0.9333,0.0667
